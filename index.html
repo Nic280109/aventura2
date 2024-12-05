@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <title>Em busca da página perdida</title>
+</head>
+<body>
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="img/cenario-passo0.png" alt="">
+            <p>Mais um dia comum, quando decido abrir um velho livro de minhas estante, e para a minha surpresa, havia algumas partes dele faltando, vou passando as paginas e vejo cartas com algumas pistas, de onde essas paginas foram parar, então, decido ir atrás. </p>
+            <button class="btn-proximo" data-proximo="1">Rio de Janeiro</button>
+            <button class="btn-proximo" data-proximo="2">São Paulo</button>
+        </div>
+        <div class="passo" id="passo-1">
+            <p>Voce começa a jornada em uma livraria da Travessa em Ipanema.</p>
+            <button class="btn-proximo" data-proximo="3">Procurar a pista em meio dos seus livros mais famosos</button>
+            <button class="btn-proximo" data-proximo="4">Desistir e voltar para casa</button>
+        </div>
+        <div class="passo" id="passo-2">
+            <p>Em São Paulo, temos dois lugares conectados que voce pode escolher para Investigar </p>
+            <button class="btn-proximo" data-proximo="5">Investigar museu de arte</button>
+            <button class="btn-proximo" data-proximo="6">Explorar A Biblioteca Mário de Andrade</button>
+        </div>
+        <div class="passo" id="passo-3">
+            <p>Já dentro da livraria, existe uma pequena estante com os livros mais famosos, então em meio a procura achou uma carta em meio as paginas, escrito da seguinte forma, "Procure a página do tempo que nunca envelhece. Embaixo da sombra do Mosteiro de São Bento, um homem antigo saberá o que está perdido. A história não se apaga lá.".</p>
+            <button class="btn-proximo" data-proximo="7">Seguir para São Bento</button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <img src="img/cenario-passo4 voltar para casa.png" alt="imagem voltando para casa e desitindo da aventura">alt
+            <p>Você decide que a aventura é grande demais e volta para casa, mas sempre se pergunta o que teria
+                encontrado.</p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>No museu da arte, A segunda carta é encontrada entre as páginas do livro, como se estivesse escondida ali por muito tempo. Ela menciona o MASP: "Entre as mãos dos antigos mestres e as obras que respiram história, há um quadro que guarda mais do que a arte. Ao olhar para a Avenida Paulista, observe o que está abaixo do concreto.".</p>
+            <button class="btn-proximo" data-proximo="7">ir para Avenida Paulista</button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>Biblioteca Mário de Andrade, você encontra um vasto conhecimento de literatura, talvez essa pista esteje em algum lugar do edificio.</p>
+            <button class="btn-proximo" data-proximo="8">Voltar e explorar a Avenida Paulista</button>
+        </div>
+
+        <div class="passo" id="passo-7">
+            <p>No São bento, a busca pela pista perdida se intensifica. Você se depara com uma estrada de pedra e outra de terra.</p>
+            <button class="btn-proximo" data-proximo="9">Seguir pela estrada de pedra</button>
+            <button class="btn-proximo" data-proximo="10">Seguir pela estrada de terra</button>
+        </div>
+
+        <div class="passo" id="passo-8">
+            <p>De volta para o museu, você finalmente encontra ultima parte das pistas. Agora, para o !</p>
+            <button class="btn-proximo" data-proximo="7">São Bento</button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>A estrada de pedra leva você a uma escultura escondida com a ultima pagina colada, com isso juntar todas as paginas, ela se transforma em uma linda paisagem, se transforma em lugar mágico .</p>
+            <button class="btn-proximo" data-proximo="11">Explorar o ambiente</button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>O caminho de terra termina em uma área pantanosa. Apesar de belas vistas, não há sinais da última página
+                aqui.</p>
+            <button class="btn-proximo" data-proximo="12">Retornar e tentar o outro caminho</button>
+        </div>
+
+        <div class="passo" id="passo-11">
+            <img src="img/cenario-passo12 lugarmagico.png" alt="encontrando uma cidade maravilhosa perdida no Amazonas">
+            <p>Dentro da paisagem magica, você descobre tesouros inimagináveis, livros infinitos, e decide se dedicar a estudar e preservar
+                este lugar</p>
+        </div>
+
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
